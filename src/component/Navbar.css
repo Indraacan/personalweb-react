@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding : 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav {
+    background : #0082e6;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.list {
+    float: right;
+    margin-right: 100px;
+} 
+
+.list li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.list li a{
+    color : white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 28px;
+    border-radius: 10px;
+}
+
+.list li a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s ease;
+}
+.logo-a{
+    
+}
